@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #8eda006e;
+    background-image: url(background.jpeg);
+}
+
+.container {
+    padding: 40px;
+    margin: 0 auto;
+}
+
+img {
+    height: 180px;
+
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 70px;
+    margin: 0;
+}
+
+
+
+#pokedex {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+li {
+    background-color: #cfd4b6d6;
+    width: calc(50% -20px);
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+li:hover {
+    animation: bounce 0.5s linear;
+}
